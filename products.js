@@ -1,24 +1,24 @@
 // define data in JSON array
 var products = [
   {
-    name: "Samsung TV 50",
-    quantity: 1,
-    ppu: 15000,
-  },
-  {
-    name: "Xiaomi Fan",
+    name: "iPhone 13 mini",
     quantity: 2,
-    ppu: 500,
+    ppu: 25900,
   },
   {
-    name: "iPhone 14 Pro Max Ultra",
+    name: "iPhone 13",
     quantity: 1,
-    ppu: 50000,
+    ppu: 29900,
   },
   {
-    name: "Logitec Gaming Mouse",
-    quantity: 1,
-    ppu: 4000,
+    name: "iPhone 13 Pro",
+    quantity: 4,
+    ppu: 38900,
+  },
+  {
+    name: "iPhone 13 Pro Max",
+    quantity: 5,
+    ppu: 42900,
   },
 ];
 

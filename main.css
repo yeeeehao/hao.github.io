@@ -1,21 +1,21 @@
 .product_table {
-  border: 1px solid black;
+  border: 1px solid rgb(118, 199, 237);
   border-spacing: 0px;
 }
 
 .product_table th {
-  background-color: brown;
-  color: wheat;
+  background-color: rgb(46, 52, 223);
+  color: rgb(159, 178, 194);
   font-weight: bolder;
 }
 
 .product_table tbody td {
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 1px solid rgb(118, 199, 237);
+  border-bottom: 1px solid rgb(118, 199, 237);
 }
 
 .product_table tfoot td {
-  background-color: beige;
+  background-color: rgb(129, 185, 230);
 }
 
 .text_center {
