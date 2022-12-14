@@ -18,6 +18,11 @@
   background-color: rgb(129, 185, 230);
 }
 
+.product_table tr td i {
+  font-size: 1rem;
+  color: rgb(79, 84, 224);
+}
+
 .text_center {
   text-align: center;
 }
@@ -31,6 +36,7 @@
   margin-right: auto;
 }
 
-.icon {
+/*.icon {
   width: 1em;
 }
+*/

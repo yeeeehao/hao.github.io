@@ -54,10 +54,15 @@ function loadData() {
   let allRows = "";
   let gross = 0;
   for (let p in products) {
+    /*let cellName =
+    //`<td><img class='icon' src='img/icon-delete.png' onclick='deleteProduct("${p}")'> ` +
+    //products[p].name +
+    "</td>";*/
     let cellName =
-      `<td><img class='icon' src='img/icon-delete.png' onclick='deleteProduct("${p}")'> ` +
+      `<td><i class="fa-sharp fa-solid fa-trash" onclick='deleteProduct("${p}")'></i>` +
       products[p].name +
       "</td>";
+
     let cellQuantity =
       '<td class="text_right">' + products[p].quantity + "</td>";
     let cellPPU = '<td class="text_right">' + products[p].ppu + "</td>";
