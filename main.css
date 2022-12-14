@@ -1,6 +1,6 @@
 .product_table {
   border: 1px solid rgb(118, 199, 237);
-  border-spacing: 0px;
+  border-spacing: 1px;
 }
 
 .product_table th {
@@ -29,4 +29,8 @@
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon {
+  width: 1em;
 }
