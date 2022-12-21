@@ -64,8 +64,8 @@ function loadData() {
       "</td>";
 
     let cellQuantity =
-      '<td class="text_right">' + products[p].quantity + "</td>";
-    let cellPPU = '<td class="text_right">' + products[p].ppu + "</td>";
+      '<td class="text_center">' + products[p].quantity + "</td>";
+    let cellPPU = '<td class="text_center">' + products[p].ppu + "</td>";
     let total = products[p].ppu * products[p].quantity;
     gross += total;
     let cellTotal = '<td class="text_right">' + total + "</td>";

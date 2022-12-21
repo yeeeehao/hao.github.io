@@ -1,26 +1,26 @@
 .product_table {
-  border: 1px solid rgb(118, 199, 237);
+  border: 1px solid black;
   border-spacing: 1px;
 }
 
 .product_table th {
-  background-color: rgb(46, 52, 223);
-  color: rgb(159, 178, 194);
+  background-color: #295b49;
+  color: white;
   font-weight: bolder;
+  text-align: center;
 }
 
 .product_table tbody td {
-  border-left: 1px solid rgb(118, 199, 237);
-  border-bottom: 1px solid rgb(118, 199, 237);
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .product_table tfoot td {
-  background-color: rgb(129, 185, 230);
+  background-color: #529d93;
 }
 
 .product_table tr td i {
-  font-size: 1rem;
-  color: rgb(79, 84, 224);
+  padding-right: 20%;
 }
 
 .text_center {
